@@ -3,7 +3,7 @@ Server-Client Communication ASI
 
 What is this?
 -------
-an .ASI mod I worked on for about 3-4 days over a year ago, I couldn't find any other developers interested in helping me, so I lost interest and burried the source. don't know why is it not posted. There is a more promising alternative available here: https://github.com/BJIADOKC/samp-addon
+an .ASI mod I worked on for about 3-4 days over a year ago, What it does is allows the server to control .dat files that the client runs. only a few .dat files were supported. I couldn't find any other developers interested in helping me, so I lost interest and burried the source. don't know why is it not posted. There is a more promising alternative available here: https://github.com/BJIADOKC/samp-addon
 
 
 old video demonstrating the mod: http://www.youtube.com/watch?v=2R5JWkXeFvQ
