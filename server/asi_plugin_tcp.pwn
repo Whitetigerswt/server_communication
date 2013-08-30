@@ -63,12 +63,12 @@ stock LoadAndSendDataFile( file[], Socket:id, remote_clientid ) {
 		socket_sendto_remote_client(id, remote_clientid, "NO DATA FILE\n");
 		return 1;
 	}
- 	new File:f = fopen(file, io_read); // Open the file
+ 	new File:f = fopen(file, io_read); 
  	new str[512];
  	
  	
  	if(f) {
-	    while(fread(f, str)) //reads the file line-by-line
+	    while(fread(f, str)) 
 	    {
 	        /*if(strfind(str, "\n", true) != strlen(str)-3) {
 	        	strcat(str, "\n");
